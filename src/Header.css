@@ -5,23 +5,22 @@ header {
   background-color: cornflowerblue;
 }
 
-ul {
+header ul {
   margin: 0;
   padding: 0;
   list-style-type: none;
   display: flex;
 }
 
-li {
-  padding: 25px 50px;
-  cursor: pointer;
-}
-
-a {
+header a {
   text-decoration: none;
   color: black;
 }
 
-li:hover {
+header .clickable {
+  padding: 25px 50px;
+}
+
+header li:hover {
   background-color: white;
 }

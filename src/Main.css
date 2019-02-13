@@ -2,7 +2,7 @@ main {
   margin-top: 100px;
 }
 
-.welcome {
+main .welcome {
   margin: 20px;
   font-size: 3rem;
 }
