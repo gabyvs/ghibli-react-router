@@ -5,7 +5,7 @@ import Movies          from './Movies';
 import People          from './People';
 
 const Main = () => (
-  <main>
+  <main className="container main">
     <Switch>
       <Route exact path="/" render={() => (
         <>
