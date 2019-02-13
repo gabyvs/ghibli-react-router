@@ -11,7 +11,7 @@ class MovieList extends Component {
     fetch("https://ghibliapi.herokuapp.com/films")
       .then(response => response.json())
       .then(data => {
-        // localStorage.setItem('movies', JSON.stringify(data));
+        localStorage.setItem('movies', JSON.stringify(data));
         this.setState({
           movies: data
         });
